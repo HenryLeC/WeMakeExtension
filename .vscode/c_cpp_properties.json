@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Arduino",
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/",

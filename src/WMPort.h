@@ -14,10 +14,9 @@ typedef struct
 {
 	uint8_t pin1;
 	uint8_t pin2;
-}WMPin;
+} WMPin;
 
-
-extern WMPin wmPort[9];
+extern WMPin wmPort[6];
 
 class WMPort
 {
@@ -30,8 +29,7 @@ public:
 	bool readDPort(uint8_t port);
 	bool readDPuPort(uint8_t port);
 	int16_t readAport(uint8_t port);
-	void writeDport(uint8_t port,bool value);
-	void writeAport(uint8_t port,int16_t value);
-	
+	void writeDport(uint8_t port, bool value);
+	void writeAport(uint8_t port, int16_t value);
 };
 #endif
