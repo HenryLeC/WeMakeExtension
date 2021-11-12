@@ -12,14 +12,16 @@
 /// 3 -  Bottom Color Sensors
 /// 4 -  Obstacle Avoidance Sensors
 /// 5 -  Matrix LED
-WMPin wmPort[6] =
-	{
-		{8, 6},	  // Left Motor
-		{7, 5},	  // Right Motor
-		{0, 4},	  // Head Lights
-		{11, 12}, // Bottom Color Sensors
-		{A2, A3}, // Obstacle Avoidance Sensors
-		{A0, A1}, // Matrix LED
-}
+WMPin wmPort[8] =
+{
+	{0, 0},	  //
+	{0, 0},	  //
+	{NC, 4},  // Head Lights
+	{11, 12}, // Bottom Color Sensors
+	{A2, A3}, // Obstacle Avoidance Sensors
+	{A0, A1}, // Matrix LED
+	{7, 5},   // Right Motor
+	{8, 6}    // Left Motor
+};
 
 #endif
