@@ -16,7 +16,7 @@ typedef struct
 	uint8_t pin2;
 } WMPin;
 
-extern WMPin wmPort[6];
+extern WMPin wmPort[9];
 
 class WMPort
 {
